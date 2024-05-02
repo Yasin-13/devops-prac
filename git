@@ -1,0 +1,62 @@
+**Git Commands Cheat Sheet**
+
+This README serves as a quick reference guide for various Git commands, including essential ones like `push` and `pull`.
+
+### Basic Commands
+
+1. **git init**: Initialize a new Git repository.
+2. **git clone [url]**: Clone a repository into a new directory.
+3. **git add [file]**: Add file(s) to staging area.
+4. **git commit -m "[message]"**: Commit changes to the repository.
+5. **git status**: Check the status of the working directory.
+
+### Branching
+
+6. **git branch**: List all local branches.
+7. **git branch [branch_name]**: Create a new branch.
+8. **git checkout [branch_name]**: Switch to a different branch.
+9. **git merge [branch_name]**: Merge specified branch into current branch.
+10. **git branch -d [branch_name]**: Delete a branch.
+
+### Remote Repository
+
+11. **git remote add [name] [url]**: Add a new remote repository.
+12. **git remote -v**: List all remote repositories.
+13. **git push [remote] [branch]**: Push local changes to remote repository.
+14. **git pull [remote] [branch]**: Fetch changes from the remote repository and merge them into the current branch.
+
+### Undoing Changes
+
+15. **git reset [file]**: Unstage file(s) from the staging area.
+16. **git checkout -- [file]**: Discard changes in the working directory.
+17. **git revert [commit_id]**: Revert a commit.
+18. **git reset --hard [commit_id]**: Reset to a specific commit, discarding all changes after it.
+
+### History
+
+19. **git log**: View commit history.
+20. **git log --oneline**: View simplified commit history.
+21. **git show [commit_id]**: Show details of a specific commit.
+
+### Miscellaneous
+
+22. **git config --global user.name "[name]"**: Set the name to be used with your commits.
+23. **git config --global user.email "[email]"**: Set the email to be used with your commits.
+24. **git diff**: Show changes between commits, commit and working tree, etc.
+25. **git stash**: Stash changes in a dirty working directory.
+26. **git tag [tag_name]**: Create a tag for the current commit.
+
+### Collaboration
+
+27. **git fetch [remote]**: Download objects and refs from another repository.
+28. **git merge [remote]/[branch]**: Merge changes from a remote branch into the current branch.
+29. **git push [remote] [local_branch]:[remote_branch]**: Push a local branch to a remote repository.
+30. **git pull [remote] [branch]**: Fetch from and integrate with another repository or a local branch.
+
+### Submodules
+
+31. **git submodule add [repository_url] [path]**: Add a submodule to the repository.
+32. **git submodule init**: Initialize submodules.
+33. **git submodule update**: Update submodules.
+
+This cheat sheet covers a wide range of Git commands. For more detailed information, refer to the official Git documentation or use `git help [command]` for specific command help. Happy coding!
